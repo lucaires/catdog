@@ -1,12 +1,12 @@
 # Cat Dog
 
-A simple clone of Instagram with the purpose of testing the following stack: NodeJS, React, React Native and MongoDB. This project uses a cloud MongoDB service called: [MongoDB Atlas](https://www.mongodb.com/cloud/atlas).
+A simple clone of Instagram with the purpose of testing the following stack: NodeJS, React and MongoDB. This project uses a cloud MongoDB service called: [MongoDB Atlas](https://www.mongodb.com/cloud/atlas).
 
 The project is separated as follows:
 
 ## backend
 
-A NodeJS application that allows you to store and list post information in a Mongo database through a REST API. This application also uses WebSocket to update the web and mobile application in real time.
+A NodeJS application that allows you to store and list post information in a Mongo database through a REST API. This application also uses WebSocket to update the web application in real time.
 
 ### Dependencies
 
@@ -126,7 +126,7 @@ Method: ``` POST ```
 URL: ``` http://localhost:3333/posts/:postId/like ```
 
 Request Example:
-``` http://localhost:3333/posts/5cffd366459073281b60c054/like ```
+``` http://localhost:3333/posts/5ed9ddeb932b4736743a48db/like ```
 
 Response Example:
 ```json
@@ -147,4 +147,45 @@ Response Example:
 
 ## frontend-web
 
+### Dependencies
 
+The main dependencies used in this application are:
+
+``` json
+"axios": "^0.19.2",
+"infinite-react-carousel": "^1.2.11",
+"react": "^16.13.1",
+"react-carousel": "^4.3.0",
+"react-dom": "^16.13.1",
+"react-router-dom": "^5.1.2",
+"react-scripts": "^3.4.1",
+"socket.io-client": "^2.3.0"
+```
+
+### Running
+
+Make sure you have **ReactJS** v10 or greater installed:
+``` bash
+npm view react version
+```
+
+Start project
+``` bash
+npm start
+```
+``` bash
+yarn start
+```
+### Main Page
+
+![alt text](https://i.ibb.co/6DBzJvy/catdog6.jpg)
+
+### When you click on photo
+
+![alt text](https://i.ibb.co/mNzvjJD/catdog7.jpg)
+
+### Register post
+
+![alt text](https://i.ibb.co/NCz0R14/catdog5.jpg)
+
+![alt text](https://i.ibb.co/Jx0XH4c/catdog4.jpg)
