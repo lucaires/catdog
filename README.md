@@ -74,7 +74,7 @@ Response Example:
   "tel": "21965471456",
   "description": "Doguinho dócil e muito amável, precisando de um lar.",
   "adopter": "Lucas",
-  "image": "Array"
+  "image": Array
        : "f95ec63b-cdd8-4f87-a37f-d6b05a77d58f-cachorro-netinho-coragem-620x373-238b88c4.jpg",
   "createdAt": "2020-06-05T05:53:47.937+00:00",
   "updatedAt": "2020-06-05T05:53:47.937+00:00",
@@ -99,7 +99,7 @@ Response Example:
   "tel": "21965471456",
   "description": "Doguinho dócil e muito amável, precisando de um lar.",
   "adopter": "Lucas",
-  "image": "Array"
+  "image": Array
        : "f95ec63b-cdd8-4f87-a37f-d6b05a77d58f-cachorro-netinho-coragem-620x373-238b88c4.jpg",
   "createdAt": "2020-06-05T05:53:47.937+00:00",
   "updatedAt": "2020-06-05T05:53:47.937+00:00",
@@ -112,7 +112,7 @@ Response Example:
   "tel": "21 96574 1566",
   "description": "Gatinha muito linda e boazinha a procura de um dono!",
   "adopter": "Yasmin",
-  "image": "Array"
+  "image": Array
        : "c7fd337a-765a-4e0b-943f-40500c455642-gato.jpg",
   "createdAt": "2020-06-05T06:00:58.950+00:00",
   "updatedAt": "2020-06-05T06:00:58.950+00:00",
@@ -137,7 +137,7 @@ Response Example:
   "tel": "21965471456",
   "description": "Doguinho dócil e muito amável, precisando de um lar.",
   "adopter": "Lucas",
-  "image": "Array"
+  "image": Array
        : "f95ec63b-cdd8-4f87-a37f-d6b05a77d58f-cachorro-netinho-coragem-620x373-238b88c4.jpg",
   "createdAt": "2020-06-05T05:53:47.937+00:00",
   "updatedAt": "2020-06-05T05:53:47.937+00:00",
