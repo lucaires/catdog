@@ -1,0 +1,26 @@
+.Nav {
+    position: fixed;
+    background-color: #fff;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.0975);
+    top: 0;
+    width: 100%;
+    height: 50px;
+  }
+
+.main-header {
+    background: #fff;
+    height: 50px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+}
+
+.header-content {
+    width: 100%;
+    max-width: 980px;
+    margin: 0 auto;
+    height: 50px;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

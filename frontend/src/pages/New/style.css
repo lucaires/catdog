@@ -1,0 +1,62 @@
+form#new-post {
+    border-radius: 10px;
+    width: 100%;
+    max-width: 580px;
+    margin: 30px auto 0;
+    margin-bottom: 50px;
+    padding: 70px;
+    background: #fff;
+    border: 1px solid #ddd;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form#new-post input {
+    margin-bottom: 10px;
+  }
+  form#new-post input[type=file] {
+    margin-bottom: 10px;
+    background-color: rgb(143, 142, 142);
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    margin: 10px;
+    padding: 6px 20px
+  }
+  
+  form#new-post input[type=text] {
+    font-family: 'PT Sans', sans-serif;
+    height: 38px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    padding: 0 20px;
+    font-size: 14px;
+  }
+
+  form#new-post textarea[type=textarea] {
+    height: 70px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    padding: 0 20px;
+    font-size: 14px;
+    font-family: 'PT Sans', sans-serif; 
+  }
+  
+  form#new-post button {
+    padding: 10px 20px;
+    width: 100px;
+    border-radius: 4px;
+    border: 0;
+    background: #3498db;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    align-self: center;
+  }
+
+  form#new-post div img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%
+  }
