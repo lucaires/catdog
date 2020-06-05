@@ -74,8 +74,8 @@ Response Example:
   "tel": "21965471456",
   "description": "Doguinho dócil e muito amável, precisando de um lar.",
   "adopter": "Lucas",
-  "image": Array
-      0 : "f95ec63b-cdd8-4f87-a37f-d6b05a77d58f-cachorro-netinho-coragem-620x373-238b88c4.jpg",
+  "image": "Array",
+      "0" : "f95ec63b-cdd8-4f87-a37f-d6b05a77d58f-cachorro-netinho-coragem-620x373-238b88c4.jpg",
   "createdAt": "2020-06-05T05:53:47.937+00:00",
   "updatedAt": "2020-06-05T05:53:47.937+00:00",
   "__v": 0
@@ -99,8 +99,8 @@ Response Example:
   "tel": "21965471456",
   "description": "Doguinho dócil e muito amável, precisando de um lar.",
   "adopter": "Lucas",
-  "image": Array
-      0 : "f95ec63b-cdd8-4f87-a37f-d6b05a77d58f-cachorro-netinho-coragem-620x373-238b88c4.jpg",
+  "image": "Array",
+      "0" : "f95ec63b-cdd8-4f87-a37f-d6b05a77d58f-cachorro-netinho-coragem-620x373-238b88c4.jpg",
   "createdAt": "2020-06-05T05:53:47.937+00:00",
   "updatedAt": "2020-06-05T05:53:47.937+00:00",
   "__v": 0
@@ -112,8 +112,8 @@ Response Example:
   "tel": "21 96574 1566",
   "description": "Gatinha muito linda e boazinha a procura de um dono!",
   "adopter": "Yasmin",
-  "image": Array
-      0 : "c7fd337a-765a-4e0b-943f-40500c455642-gato.jpg",
+  "image": "Array",
+      "0" : "c7fd337a-765a-4e0b-943f-40500c455642-gato.jpg",
   "createdAt": "2020-06-05T06:00:58.950+00:00",
   "updatedAt": "2020-06-05T06:00:58.950+00:00",
   "__v": 0
@@ -137,8 +137,8 @@ Response Example:
   "tel": "21965471456",
   "description": "Doguinho dócil e muito amável, precisando de um lar.",
   "adopter": "Lucas",
-  "image": Array
-      0 : "f95ec63b-cdd8-4f87-a37f-d6b05a77d58f-cachorro-netinho-coragem-620x373-238b88c4.jpg",
+  "image": "Array",
+      "0" : "f95ec63b-cdd8-4f87-a37f-d6b05a77d58f-cachorro-netinho-coragem-620x373-238b88c4.jpg",
   "createdAt": "2020-06-05T05:53:47.937+00:00",
   "updatedAt": "2020-06-05T05:53:47.937+00:00",
   "__v": 0
@@ -155,7 +155,6 @@ The main dependencies used in this application are:
 "axios": "^0.19.2",
 "infinite-react-carousel": "^1.2.11",
 "react": "^16.13.1",
-"react-carousel": "^4.3.0",
 "react-dom": "^16.13.1",
 "react-router-dom": "^5.1.2",
 "react-scripts": "^3.4.1",
@@ -164,9 +163,17 @@ The main dependencies used in this application are:
 
 ### Running
 
-Make sure you have **ReactJS** v10 or greater installed:
+Make sure you have **ReactJS** installed:
 ``` bash
 npm view react version
+```
+
+Access the `frontend` directory and install package dependencies using `npm` or `yarn`:
+``` bash
+npm install
+```
+``` bash
+yarn install
 ```
 
 Start project
